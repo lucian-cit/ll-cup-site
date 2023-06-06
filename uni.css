@@ -1,0 +1,49 @@
+body
+{
+background-image:url(source/0.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:top;
+color:white;
+font-family:verdana;
+font-size:11pt;
+text-align:center;
+}
+a:link {font-size:11pt; font-family:verdana; color:#B22222; text-decoration:none;}
+a:visited {font-size:11pt; font-family:verdana; color:#B22222; text-decoration:none;}
+a:hover {font-size:12pt; font-family:verdana; color:white; text-decoration:underline;}
+a:active {font-size:11pt; font-family:verdana; color:white; text-decoration:none;}
+table
+{
+margin-left:auto;
+margin-right:auto;
+background-color:#1C1C1C;
+color:white;
+font-family:verdana;
+font-size:11pt;
+text-align:left;
+border-color:#B22222;
+}
+img
+{
+border-width:0px;
+}
+hr
+{
+background-color:#B70000; height:5px; width:900px;
+}
+.trans
+{
+background-color:transparent;
+}
+table thead tr .header {
+	background-image: url(source/ord.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+table thead tr .headerSortUp {
+	background-image: url(source/asc.gif);
+}
+table thead tr .headerSortDown {
+	background-image: url(source/desc.gif);
+}
